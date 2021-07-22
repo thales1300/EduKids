@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--CSS-->
+	<link rel="stylesheet" type="text/css" href="./src/style.css">
+	<link rel="stylesheet" type="text/css" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+</head>
+<body>
+	<!--Menu | Navbar -->
+	<nav class="navbar sticky-top navbar-expand-lg  navbar-dark bg-gradient-dark">
+		<div class="container pl-0 py-1">
+			<a class="navbar-brand h4 mb-0" href="#">
+				<img src="./images/icon.png" width="30" height="30" class="d-inline-block align-top mr-2" alt="">
+					EduKids
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarChaplin">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarChaplin">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active ml-4 ">
+		    			<a class="nav-link" href="index.html">Página Inicial<span class="sr-only">(Página atual)</span></a>
+		    		</li>
+	    			<li class="nav-item ml-4 ">
+		    			<a class="nav-link" href="fotografia.html">Loren</a>
+		    		</li>	
+					<li class="nav-item ml-4 ">
+		    			<a class="nav-link" href="desing.html">Loren</a>
+		  			</li>
+		  			<li class="nav-item ml-4 ">
+		    			<a class="nav-link" href="videografia.html">Loren</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<br><br>
+	<!--tela de login | cadastro-->
+	<div class="container my-5">
+		<div class="row">				
+			<!--cadastro-->
+			<div class="col-lg-6 px-5">
+				<div class="card">
+					<div class="card-header"> <h3>Cadastro</h3></div>
+					<div class="card-body">
+						<form>
+							<div class="form-group my-3">
+								<input type="email" class="form-control" placeholder="Usuário">
+								</div>
+							<div class="form-group form-row my-4">
+								<div class="col">
+								<input type="text" class="form-control" placeholder="Nome">
+								</div>
+								<div class="col">
+								<input type="text" class="form-control" placeholder="Sobrenome">
+								</div>
+							</div>
+							<div class="form-group my-4">
+								<input type="email" class="form-control" placeholder="E-mail">
+								</div>
+							<div class=" form-group form-row my-4">
+								<div class="col">
+								<input type="text" class="form-control" placeholder="Senha">
+								</div>
+								<div class="col">
+								<input type="text" class="form-control" placeholder="Confirmar Senha">
+								</div>
+							</div>
+							<button type="button" class="btn btn-dark btn-lg btn-block mt-4">Cadastrar</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		<!--Login-->
+			<div class="col-lg-6 px-5 ">
+				<div class="card">
+					<div class="card-header"> <h3>Login</h3></div>
+					<div class="card-body">
+						<form>
+							<div class="form-group">
+									<label for="FormEmail">Email</label>
+										<input type="email" class="form-control" id="FormEmail" placeholder="email@exemplo.com">
+							</div>
+							<div class="form-group">
+									<label for="FormSenha">Senha</label>
+									<input type="password" class="form-control" id="FormSenha" placeholder="Senha">
+								</div>
+							<div class="form-check">
+									<input type="checkbox" class="form-check-input">
+									<label class="form-check-label" >
+								Lembre-me
+									</label>
+							</div>
+							<a type="submit" class="btn btn-dark mt-3" href="atv.html">Login</a>
+						</form>
+						<button type="button" class="btn btn-dark mt-4">Esqueceu a senha ?</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--final-->
+	<br><br>
+	<div class="jumbotron mb-0 mt-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Edukids</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>	
+				</div>
+				<div class="col-sm-4">
+					<h3> Menu</h3>
+					<div class="list-group">
+						<a class="list-group-item list-group-item-action list-group-item-dark bg-gradient-dark active" href ="#">Página Inicial</a>
+						<a class="list-group-item list-group-item-action list-group-item-dark" href ="#">Quem somos?</a>
+						<a class="list-group-item list-group-item-action list-group-item-dark" href ="#">Contatos</a>
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<h3> Redes Sociais </h3>
+						<div class="btn-group-vertical btn-block btn-group-lg" role="droup">
+							<a class="btn btn-dark " href ="#"> <i class="fab fa-facebook-square" ></i> Facebook</a>
+							<a class="btn btn-dark " href ="#"> <i class="fab fa-twitter-square"></i> Twitter</a>
+							<a class="btn btn-dark " href ="#"> <i class="fab fa-instagram"></i> Instagram</a>
+						</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+    <!--JS-->
+	<script src ="./node_modules/jquery/dist/jquery.js" type="text/javascript"></script>
+	<script src ="./node_modules/popper.js/dist/popper.js" type="text/javascript"></script>
+	<script src ="./node_modules/bootstrap/dist/js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>

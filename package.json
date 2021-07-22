@@ -1,0 +1,14 @@
+{
+  "name": "EduKids",
+  "version": "1.0.0",
+  "description": "Atividade Final SWL",
+  "main": "index.html",
+  "author": "Thales Santana Gomes",
+  "license": "MIT",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}

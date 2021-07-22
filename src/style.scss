@@ -1,0 +1,103 @@
+body{
+    background-image:url('../images/pencils-1280558_1920.jpg');
+    background-size: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+$enable-gradients:                            true !default;
+/* Color Theme */
+$cp-1:#7CDBD5;
+$cp-2:#8C8Ca4;
+$cp-3:#4682B4;
+$cp-4:#02c8a7;
+$cp-5:#5F9EA0;
+$cp-6:#012136;
+$cp-7:#DCDCDC;
+
+$theme-colors:(
+    "cp-1": $cp-1,
+    "cp-2": $cp-2,
+    "cp-3": $cp-3,
+    "cp-4": $cp-4,
+    "cp-5": $cp-5,
+    "cp-6": $cp-6,
+    "cp-7": $cp-7,
+);
+$link-color:                                 $cp-6 !default;
+
+.left{
+	width: 60px;
+	height: 100%;
+	background: #2f2f2f;
+    white-space: nowrap; 
+    transition: width 0.5s ;
+    position: fixed;
+    z-index: 9999; 
+}
+	.left ul{
+		padding: 0;
+		list-style-type: none;
+		text-align: left;
+	}
+	.left li {
+		width: auto;
+		height: 60px;
+		line-height: 50px;  
+		padding-left: 18px;
+	}
+	.left li:hover {
+        background: black;
+        height: 60px; 
+	}
+
+	.left:hover {
+        width: 250px; 
+    }  
+
+		.left .item-menu {
+	        height:50px;
+	        overflow:hidden;
+	        color:#fff;
+	    }  
+	.left a{
+		color: white;
+	    text-decoration: none !important;
+	    font-weight: bold;
+	} 
+	span.menu{
+		padding-left: 17px;
+	}
+	.left-search {
+	    color:rgb(255, 255, 255);
+	    height: 35px;
+	    margin-left: 15px;
+	    width: 150px;
+    }
+.right{
+    margin-left: 60px;
+    height: 100%;
+}    
+.chart-container {
+    position: relative;
+    margin: auto;
+    max-height: 400px;
+    width: 41vw;
+}
+
+#container-modal.flexbox{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#modal{
+	width: 1300px;
+	height: 750px;
+	margin-left: 250px;
+	margin-top: 150px;
+	background-color: #8C8Ca4;
+	position: absolute;
+}
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
